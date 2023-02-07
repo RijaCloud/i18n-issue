@@ -2,6 +2,7 @@
 import fr from './locales/fr.json';
 
 export default defineNuxtConfig({
+  modules: ['@nuxtjs/i18n'],
   i18n: {
     vueI18n: {
       legacy: false,
@@ -11,11 +12,6 @@ export default defineNuxtConfig({
       },
       fallbackLocale: ['fr'],
       silentTranslationWarn: true,
-    },
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'ag-lang',
-      redirectOn: 'root', // recommended
     },
   },
 });
