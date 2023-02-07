@@ -1,0 +1,9 @@
+{
+  "welcome": {
+    "title": "Hello world",
+    "desc": {
+      "dot1": "dot 1",
+      "dot2": "dot 2"
+    }
+  }
+}
